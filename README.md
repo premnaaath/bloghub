@@ -1,6 +1,6 @@
 # bloghub
 
-A safe and secure blogging site built using Python - Django, and Bootstrap
+A blogging app built using Python - Django, and Bootstrap
 
 Stores data of Users and the their posts in a Database
 

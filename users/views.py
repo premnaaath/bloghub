@@ -13,7 +13,8 @@ def register(request):
             messages.success(
                 request, f'Your account has been created! You are now able to log in')
             return redirect('login')
-    form = UserRegisterForm()
+    else:
+        form = UserRegisterForm()
 
     context = {
         'form': form
