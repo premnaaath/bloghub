@@ -1,14 +1,14 @@
 # bloghub
 
-A blogging app built using Python - Django, and Bootstrap
+A blogging app built using Python - Django, and Bootstrap.
 
-Stores data of Users and the their posts in a Database
+Users can perform CRUD operations securely on the database.
 
-All four CRUD operations are covered
+For deployment, PostgreSQL has been used.
 
-</ul>Users can:
-<li> Register and Login </li>
-<li> Update user credentials </li>
-<li> Upload profile picture </li>
-<li> Create or update posts </li>
-</ul>
+Users can:
+
+- Register and Login
+- Update user credentials
+- Upload profile picture
+- Create or update posts
