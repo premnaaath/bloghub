@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import os
 from pathlib import Path
+import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -144,3 +145,4 @@ LOGIN_REDIRECT_URL = 'blog-home'
 # if user tries to access an unauthenticated page,
 # take him to login page at this url, not to the default login route
 LOGIN_URL = 'login'
+django_heroku.settings(locals())
