@@ -8,10 +8,4 @@
 
 - For deployment, PostgreSQL has been used.
 
-- Users can:
-
-  - Register and Login
-  - Create or update posts
-  - Update user credentials and profile picture
-
 - View [Deployment](https://bloghub-django.herokuapp.com/)
