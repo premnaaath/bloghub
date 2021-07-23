@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import os
 from pathlib import Path
-import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,10 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-n(6np!ameknoo)1!(_)a56=%oe7=+ysk+*sy_&)yi0ig&rn48&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['bloghub-django.herokuapp.com',
-                 '127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -123,7 +121,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 # Default primary key field type
@@ -145,4 +142,3 @@ LOGIN_REDIRECT_URL = 'blog-home'
 # if user tries to access an unauthenticated page,
 # take him to login page at this url, not to the default login route
 LOGIN_URL = 'login'
-django_heroku.settings(locals())
