@@ -1,14 +1,17 @@
 # bloghub
 
-A blogging app built using Python - Django, and Bootstrap.
+## About
 
-Users can perform CRUD operations securely on the database.
+- A blogging app built using Python - Django, and Bootstrap.
 
-For deployment, PostgreSQL has been used.
+- Users can perform CRUD operations securely on the database.
 
-Users can:
+- For deployment, PostgreSQL has been used.
 
-- Register and Login
-- Update user credentials
-- Upload profile picture
-- Create or update posts
+- Users can:
+
+  - Register and Login
+  - Create or update posts
+  - Update user credentials and profile picture
+
+- View [Deployment](https://bloghub-django.herokuapp.com/)
