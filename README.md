@@ -9,4 +9,4 @@
 
 ## Preview
 
-![Preview](./Preview.png)
+![Preview](./preview.png)
